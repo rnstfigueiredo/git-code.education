@@ -6,6 +6,12 @@
 * ssh-keygen -t rsa -C "Rnst Figueiredo - leoni@SeuDominio.eti.br"
 * eval "$(ssh-agent -s)" (verifica o agente ssh)
 * ssh-add ~/.ssh/id_rsa (adiciona a key ao meu perfil)
+* atheia:git-code.education(master) $ ssh -T git@github.com
+* The authenticity of host 'github.com (192.30.252.128)' can't be established.
+* RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+* Are you sure you want to continue connecting (yes/no)? yes
+* Warning: Permanently added 'github.com,192.30.252.128' (RSA) to the list of known hosts.
+* Hi rnstfigueiredo! You've successfully authenticated, but GitHub does not provide shell access.
 
 ##### Criando o Ambiente
         mkdir git-code.education
