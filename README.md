@@ -4,6 +4,8 @@
 
 #### Criar chave publica privada SSH
 * ssh-keygen -t rsa -C "Rnst Figueiredo - leoni@SeuDominio.eti.br"
+* eval "$(ssh-agent -s)" (verifica o agente ssh)
+* ssh-add ~/.ssh/id_rsa (adiciona a key ao meu perfil)
 
 ##### Criando o Ambiente
         mkdir git-code.education
